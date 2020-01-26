@@ -6,9 +6,9 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "route": "users",
+      "route": "users/{id}",
       "methods": [
-        "get"
+        "delete"
       ]
     },
     {
