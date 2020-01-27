@@ -3,10 +3,10 @@ import pyodbc
 import json
 import azure.functions as func
 
-server = 'fmmb-sql.database.windows.net'
-database = 'People'
-username = 'fmmb'
-password = 'Aa1Bb2Cc3'
+server = '<insert_server_name>'
+database = '<insert_DB_name>'
+username = '<insert_username>'
+password = '<insert_password>'
 driver= '{ODBC Driver 17 for SQL Server}'
 
 
